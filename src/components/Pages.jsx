@@ -6,6 +6,7 @@ import {
 import MainLayout from './MainLayout';
 import App from '../App';
 import Picture from './Picture';
+import Photos from './Photos';
 
   const router = createBrowserRouter([
     {
@@ -15,10 +16,6 @@ import Picture from './Picture';
         {
             path : "",
             element : <App/>
-         },
-         {
-          path : "picture",
-          element : <Picture/>
          }
       ]
     },
